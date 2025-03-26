@@ -1,0 +1,11 @@
+import random
+a = random.randint(1,10)
+
+
+b = int(input("Enter number 1 to 10: "))
+if b < a:
+   print("More! Try again.")
+elif b > a:
+   print("Less! Try again.")
+else:
+   print("Congratulations! You guessed the number!")
